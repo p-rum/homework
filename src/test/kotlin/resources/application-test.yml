@@ -1,0 +1,8 @@
+
+ethereum:
+  url: "http://127.0.0.1:8545"
+
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:14:///testdb
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
